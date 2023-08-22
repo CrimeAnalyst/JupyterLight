@@ -30,6 +30,9 @@ jupyterlab-night
 # JupyterLab: Miami nights theme (optional)
 jupyterlab_miami_nights
 
+# Jupyter Packager
+jupyter_packaging
+
 # Python: ipywidget library for Jupyter notebooks (optional)
 ipywidgets>=8.0.0,<9
 # Python: ipyevents library for Jupyter notebooks (optional)
