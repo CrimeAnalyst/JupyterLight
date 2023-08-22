@@ -36,6 +36,7 @@ jobs:
           python3 setup.py sdist
           cd -
           pip install jupyterlite-webr-kernel/dist/jupyterlite-webr-*.tar.gz
+          echo "jupyterlite-webr" >> requirements.txt
       - name: Build the JupyterLite site
         run: |
           cp README.md content
